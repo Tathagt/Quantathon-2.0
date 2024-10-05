@@ -7,6 +7,7 @@ import Countdown from './countdown'
 import About from './about'
 import Bg from './bg'
 import Qiskit from './qiskit'
+import Tracks from './Sections/Tracks/Tracks';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Countdown/>
       <About/>
       <Qiskit/>
+      <Tracks/>
     </>
   )
 }
